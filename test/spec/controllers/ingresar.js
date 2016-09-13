@@ -1,23 +1,23 @@
 'use strict';
 
-describe('Controller: FormulariofutbolCtrl', function () {
+describe('Controller: IngresarCtrl', function () {
 
   // load the controller's module
   beforeEach(module('angularMozcuApp'));
 
-  var FormulariofutbolCtrl,
+  var IngresarCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    FormulariofutbolCtrl = $controller('FormulariofutbolCtrl', {
+    IngresarCtrl = $controller('IngresarCtrl', {
       $scope: scope
       // place here mocked dependencies
     });
   }));
 
   it('should attach a list of awesomeThings to the scope', function () {
-    expect(FormulariofutbolCtrl.awesomeThings.length).toBe(3);
+    expect(IngresarCtrl.awesomeThings.length).toBe(3);
   });
 });

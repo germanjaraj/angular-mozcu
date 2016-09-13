@@ -2,13 +2,13 @@
 
 /**
  * @ngdoc function
- * @name angularMozcuApp.controller:MainCtrl
+ * @name angularMozcuApp.controller:ExplorarCtrl
  * @description
- * # MainCtrl
+ * # ExplorarCtrl
  * Controller of the angularMozcuApp
  */
 angular.module('angularMozcuApp')
-  .controller('MainCtrl', function () {
+  .controller('ExplorarCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',

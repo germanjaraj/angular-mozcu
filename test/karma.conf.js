@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on 2016-08-29
+// Generated on 2016-09-10
 
 module.exports = function(config) {
   'use strict';
@@ -20,7 +20,9 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // bower:js
+      'bower_components/jquery/dist/jquery.js',
       'bower_components/angular/angular.js',
+      'bower_components/bootstrap/dist/js/bootstrap.js',
       'bower_components/angular-animate/angular-animate.js',
       'bower_components/angular-cookies/angular-cookies.js',
       'bower_components/angular-resource/angular-resource.js',

@@ -1,7 +1,7 @@
 /*ESTE DOCUMENTO CONTIENE TODOS LOS CAMBIOS DE ESTILO SOBRE BOOTSTRAP*/
 
 body{
-    font-family: 'roboto', serif;
+    font-family: 'Roboto','Open Sans', sans-serif;
 }
 
 /*++++++++++++++++++++++++++BOTONES+++++++++++++++++++++++++++*/
@@ -2204,6 +2204,37 @@ margin-left: 15px;}
    margin-top: 20px;
 }
 
+.stylish-panel{
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+    min-height: 380px;
+    transition: 0.2s;
+}
+/*.stylish-panel > div:hover > div{
+    margin-top: -10px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 5px 2px;
+    background: rgba(200, 200, 200, 0.1);
+    transition: 0.5s;
+}*/
+
+.stylish-panel:hover img {
+    -webkit-transform: rotate(60deg);
+    -moz-transform: rotate(60deg);
+    -o-transform: rotate(60deg);
+    -ms-transform: rotate(60deg);
+    transform: rotate(60deg);
+}
+
+.acerca{
+  margin-bottom: 40px;
+}
+.acercaTitl{
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
 /*+++++++++++++++++++++++++++++++++FIN Acerca de mozcu+++++++++++++++++++
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 /*+++++++++++++++++++++++++++++++++INICIO donaciones+++++++++++++++++++
